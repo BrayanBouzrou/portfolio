@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../styles/About.module.css';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
     return (
@@ -10,7 +10,7 @@ export default function Home() {
             </Head>
             <main className={styles.main}>
                 <h1>Bienvenue sur mon portfolio éco-responsable !</h1>
-                <p>Ce site a été conçu avec des pratiques respectueuses de l'environnement.</p>
+                <p>Découvrez mes projets, mon parcours et contactez-moi pour en savoir plus !</p>
             </main>
         </div>
     );

@@ -10,8 +10,9 @@ export default function Contact() {
             </Head>
             <main className={styles.main}>
                 <h1>Contact</h1>
-                <p>Vous pouvez me joindre via ce formulaire :</p>
-                {/* Formulaire de contact ici */}
+                <p><strong>Email :</strong> bouzroubrayan@gmail.com</p>
+                <p><strong>Téléphone :</strong> 0620388175</p>
+                <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/brayan-bouzrou" target="_blank">Mon profil LinkedIn</a></p>
             </main>
         </div>
     );

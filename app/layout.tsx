@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import React from "react";
-import styles from "@/app/styles/Header.module.css";
+import styles from "./styles/HeaderFooter.module.css";
 import Link from "next/link";
 
 const inter = Inter({
@@ -39,18 +39,19 @@ export default function RootLayout({
         </head>
         <body className={`${inter.variable} ${robotoMono.variable} antialiased`}>
         <header className={styles.header}>
-            <h1>Mon Portfolio</h1>
+            <h1>Bouzrou Brayan</h1>
             <nav>
                 <ul>
-                    <li><Link href="/home/">Accueil</Link></li>
-                    <li><Link href="/about/">À propos</Link></li>
-                    <li><Link href="/contact/">Contact</Link></li>
+                    <li><Link href="/home">Accueil</Link></li>
+                    <li><Link href="/projects">Projets</Link></li>
+                    <li><Link href="/about">À propos</Link></li>
+                    <li><Link href="/contact">Contact</Link></li>
                 </ul>
             </nav>
         </header>
         <main>{children}</main>
         <footer className={styles.footer}>
-            <p>&copy; {new Date().getFullYear()} Mon Portfolio Éco-responsable. Tous droits réservés.</p>
+            <p>&copy; {new Date().getFullYear()} Mon Portfolio Éco-responsable. Tous droits réservés. Bouzrou Brayan.</p>
         </footer>
         </body>
         </html>

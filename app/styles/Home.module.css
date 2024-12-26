@@ -27,25 +27,11 @@
     line-height: 1.2;
 }
 
-.projectList {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.projectList li {
+.main p {
     font-size: 1.2rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    background: var(--accent-light);
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.projectList li:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 @keyframes fadeIn {
@@ -68,10 +54,6 @@
         background: var(--accent-dark);
         color: var(--fg);
     }
-
-    .projectList li {
-        background: var(--accent-dark);
-    }
 }
 
 @media (max-width: 768px) {
@@ -83,7 +65,7 @@
         font-size: 2rem;
     }
 
-    .projectList li {
-        font-size: 1rem;
+    .main p {
+        font-size: 1.1rem;
     }
 }
